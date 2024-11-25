@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, ArrowUp, ExternalLink } from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowUp, Linkedin } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
                 Hana Emam
               </h1>
               <h2 className="text-2xl lg:text-3xl text-blue-600 mb-8">
-                Social Media Manager, Admin, Marketeer & Customer Satisfaction Specialist
+                Admin & Marketeer
               </h2>
               <div className="space-y-4">
                 <a href="mailto:hanaemam2001@gmail.com" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
@@ -38,6 +38,10 @@ function App() {
                 <a href="tel:+20-01141461741" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
                   <Phone className="w-5 h-5 mr-3" />
                   +20-01141461741
+                </a>
+                <a href="https://www.linkedin.com/in/hana-emam-28b3b0221" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
+                  <Linkedin className="w-5 h-5 mr-3" />
+                  LinkedIn Profile
                 </a>
                 <div className="flex items-center text-gray-600">
                   <MapPin className="w-5 h-5 mr-3" />
@@ -65,7 +69,7 @@ function App() {
           <div className="bg-blue-50 rounded-xl p-8 mb-12 transform hover:scale-[1.02] transition-transform">
             <h3 className="text-2xl font-bold text-blue-600 mb-2">Restore Language and Culture Center</h3>
             <p className="text-xl text-gray-600 mb-4">Administration & Marketing Coordination</p>
-            <p className="text-gray-500">April 2024 - Present • Cairo, Egypt</p>
+            <p className="text-gray-500">April 2024 - August 2024 • Cairo, Egypt</p>
           </div>
 
           {/* Grid of Other Roles */}
@@ -187,6 +191,9 @@ function App() {
               </a>
               <a href="tel:+20-01141461741" className="hover:text-blue-400 transition-colors">
                 <Phone className="w-6 h-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/hana-emam-28b3b0221" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+                <Linkedin className="w-6 h-6" />
               </a>
             </div>
           </div>
