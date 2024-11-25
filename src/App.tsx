@@ -28,7 +28,7 @@ function App() {
                 Hana Emam
               </h1>
               <h2 className="text-2xl lg:text-3xl text-blue-600 mb-8">
-                Admin & Marketeer
+                Social Media Manager, Admin,  Marketeer & Customer Satisfaction Specialist
               </h2>
               <div className="space-y-4">
                 <a href="mailto:hanaemam2001@gmail.com" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
